@@ -23,7 +23,7 @@ Installation
 
     git clone git@github.com:AlphaRecon19/cloudflare-getzones.git
 
-Now that you have cloudflare-getzones you will need to edit 2 variables in index.php `$cloudflare_tkn` and `$$cloudflare_email` with your information from https://www.cloudflare.com/my-account page.
+Now that you have cloudflare-getzones you will need to edit 2 variables in index.php `$cloudflare_tkn` and `$cloudflare_email` with your information from https://www.cloudflare.com/my-account page.
 
 Once you have made you changes above everything should just work. There will be a dropdown with all of you domains in your account.
 
