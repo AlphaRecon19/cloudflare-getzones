@@ -66,7 +66,7 @@ foreach ($full as $key) {
 		if ($full['result'] == 'error'){//Add some error handling
 			die('ERROR '.$full['err_code'] .': '. $full['msg']);
 		}
-		
+
 	}
 	if ($n == 1) {//If is the zone information
 
@@ -85,15 +85,15 @@ foreach ($full as $key) {
 	}
 	$n++;
 }
-//Debug - Show the data that is now in this array.
+/*//Debug - Show the data that is now in this array.
 echo '<pre>
 ';
-//var_dump($full); 
+//var_dump($full);
 echo '
 </pre>';
-	
+*/
 //Below is not needed but shows the domains and their data in a neat format
-//You can now use 
+//You can now use
 //	$zones['(domain)']['variable']
 //to retrieve the stored data
 
