@@ -84,19 +84,19 @@ foreach ($full as $key) {
 		}
 	}
 	$n++;
-	//Debug - Show the data that is now in this array.
-	echo '<pre>
-	';
-	//var_dump($full); 
-	echo '
-	</pre>';
-	
-	
-	//Below is not needed but shows the domains and their data in a neat format
-	//You can now use 
-	//	$zones['(domain)']['variable']
-	//to retrieve the stored data
 }
+//Debug - Show the data that is now in this array.
+echo '<pre>
+';
+//var_dump($full); 
+echo '
+</pre>';
+	
+//Below is not needed but shows the domains and their data in a neat format
+//You can now use 
+//	$zones['(domain)']['variable']
+//to retrieve the stored data
+
 echo '<select id="domains" style="display:block;">';
 echo '<option>Select Domain</option>';
 foreach ($zones as $key => $value) {
@@ -123,3 +123,4 @@ foreach ($zones as $key => $value) {
 		$('#' + id).css('display', 'block');
 	});
 </script>
+
